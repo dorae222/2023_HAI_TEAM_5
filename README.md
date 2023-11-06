@@ -17,7 +17,8 @@
 ## 브랜치 관리
 1. 브랜치 목록 확인: git branch
 2. 브랜치 이동: git checkout 브랜치이름
-
+3. 브랜치 내 push: git push origin 브랜치 이름
+   
 ## 버전 되돌리기
 1. 이전 버전으로 돌아가기: git reset --hard 브랜치2~
 2. 돌아왔던 버전으로 되돌아가기: git reset --hard 브랜치3
