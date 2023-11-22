@@ -5,6 +5,8 @@ import faiss
 from langchain.vectorstores import FAISS
 from langchain.embeddings import OpenAIEmbeddings
 import pickle
+from dotenv import load_dotenv, find_dotenv
+load_dotenv(find_dotenv())
 
 
 # Here we load in the data in the format that Notion exports it in.
